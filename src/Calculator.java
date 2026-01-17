@@ -14,14 +14,17 @@ public class Calculator {
 
         int choice = sc.nextInt();
 
-        if (choice == 1) {
-            System.out.println("Addition feature coming soon...");
-        } 
-        else if (choice == 2) {
-            System.out.println("Show feature coming soon...");
-        }
-        else {
-            System.out.println("Invalid choice");
-        }
-    }
+    if (choice == 1) {
+
+    System.out.print("Enter first number: ");
+    int a = sc.nextInt();
+
+    System.out.print("Enter second number: ");
+    int b = sc.nextInt();
+
+    lastResult = a + b;
+
+    System.out.println("Result: " + lastResult);
+}}
+
 }
